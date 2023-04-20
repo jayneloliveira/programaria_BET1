@@ -2,7 +2,7 @@
 //1ª: trazer o moongose para dentro do projeto
 
 const mongoose = require('mongoose')
-require('.dotenv').config()
+require('dotenv').config()
 
 async function conectaBancoDeDados() { 
     //palavra reservada async: se refere ao js assíncrono
